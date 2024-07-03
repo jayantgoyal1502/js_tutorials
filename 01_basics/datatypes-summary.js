@@ -30,3 +30,25 @@ let myObj = {
 const myFunction = function(){
     console.log("hello world");
 }
+
+
+//************************************************************************************
+
+//stack memory(primitive) it makes copy , heap memory(non primitive) it gives original data as reference
+
+let myCity = "delhi"
+let anotherCity = myCity
+anotherCity="bangalore"
+// console.log(myCity);
+// console.log(anotherCity);
+
+let userOne = {
+    email: "userone@google.com",
+    upi: "userone@ybl"
+}
+
+let usertwo = userOne
+usertwo.email = "usertwo@google.com"
+
+console.log(userOne.email);
+console.log(usertwo.email);
