@@ -35,6 +35,34 @@ const obj2 = {
 // console.log(obj3);
 
 
-console.log(Object.keys(tinderUser)); // [ 'id', 'name' ]
-console.log(Object.entries(tinderUser)); // [ [ 'id', '123abc' ], [ 'name', 'tony stark' ] ]
-console.log(Object.values(tinderUser)); // [ '123abc', 'tony stark' ]
+// console.log(Object.keys(tinderUser)); // [ 'id', 'name' ]
+// console.log(Object.entries(tinderUser)); // [ [ 'id', '123abc' ], [ 'name', 'tony stark' ] ]
+// console.log(Object.values(tinderUser)); // [ '123abc', 'tony stark' ]
+
+
+//*****************************object destructuring*****************************
+const course = {
+    coursename : "js tutorial",
+    price: "1000",
+    instructor: "hitesh"
+}
+
+// course.instructor //instead of writing this again and again , we use below method
+
+// const {instructor} = course
+// console.log(instructor);
+
+// const {instructor : tutor} = course
+// console.log(tutor);
+
+// **************************** api ************************************************
+// {
+//     "name":"jayant",
+//     "course":"js"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
