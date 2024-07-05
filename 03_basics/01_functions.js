@@ -39,4 +39,33 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 // console.log(loginUserMessage("jayant"))
-console.log(loginUserMessage()) //undefined aayega
+// console.log(loginUserMessage()) //undefined aayega
+
+//rest operator 
+
+function calculateCartPrice(...num1){// this ... is called rest operator,used when we dont know the number of parameters
+    return num1
+}
+// console.log(calculateCartPrice(2,3,4));
+
+
+const user = {
+    username: "jay",
+    rollNum : 24
+}
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and roll number is ${anyObject.rollNum}`);
+}
+
+// handleObject(user)
+
+// handleObject({
+//     username:"jayant",
+//     rollNum:24
+// })
+
+const myNewArray = [200,400,600]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArray));
