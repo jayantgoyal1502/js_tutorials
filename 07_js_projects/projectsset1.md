@@ -1,4 +1,4 @@
-## project 1
+## project 1 - colour changer
 
 ```javascript
 const buttons = document.querySelectorAll('.button')
@@ -26,7 +26,7 @@ buttons.forEach( function(button) {
 
 ```
 
-## project 2
+## project 2 - bmi calculator
 
 ``` javascript
     const form = document.querySelector('form')
